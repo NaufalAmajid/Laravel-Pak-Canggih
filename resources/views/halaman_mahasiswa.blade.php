@@ -7,7 +7,7 @@
         <th>Program Studi</th>
     </tr>
 
-    @foreach ($data as $m)
+    @foreach ($data_mahasiswa as $m)
     <tr>
         <td>{{ $m->nim }}</td>
         <td>{{ $m->nama }}</td>
